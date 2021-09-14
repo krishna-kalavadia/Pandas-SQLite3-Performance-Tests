@@ -7,7 +7,7 @@ Tests were performed by creating a test dataset with 3 columns (first name, last
 for a specific ID value (in this case ID = 12) and the query runtime is measured. 
 
 ## Results 
-Although Pandas performed better with smaller datasets (~10,000,000 records), SQLite3 
+Although Pandas performed better with smaller datasets (<10,000,000 records), SQLite3 
 performed better with datasets with over ~30,000,000 - 40,000,000 records. When testing 80,000,000 records
 SQLite found the records almost 2x faster. 
 
