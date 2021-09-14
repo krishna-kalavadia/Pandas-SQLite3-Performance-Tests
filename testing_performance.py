@@ -6,6 +6,7 @@ import timeit
 import sqlite3
 import os
 
+# Version 1.0
 # "Pandas vs SQLite3 Performance": the following performance tests were used in my Work Report (WKRPT) 200 submitted
 # at the University of Waterloo
 
